@@ -20,19 +20,16 @@ services:
 # dan dapat diakses oleh aplikasi Anda
 env:
   # Contoh variabel lingkungan
-  - key: DATABASE_URL
-    # Nilai variabel lingkungan
-    value: "@your-database-url"
   - key: APP_FIREBASE_API_KEY
     value: "AIzaSyC2hvYHFGWSKkUtatIaxUukKz1gPYb62Gw"
   - key: APP_FIREBASE_AUTH_DOMAIN
-      value: "obat-keluarga.firebaseapp.com"
+    value: "obat-keluarga.firebaseapp.com"
   - key: APP_FIREBASE_PROJECT_ID
-      value: "obat-keluarga"
+    value: "obat-keluarga"
   - key: APP_FIREBASE_STORAGE_BUCKET
-      value: "obat-keluarga.appspot.com"
+    value: "obat-keluarga.appspot.com"
   - key: APP_FIREBASE_MESSAGING_SENDER_ID
-      value: "73484518469"
+    value: "73484518469"
   - key: APP_FIREBASE_APP_ID
-      value: "1:73484518469:web:daa722eeb9b4d73bf90f2c"
+    value: "1:73484518469:web:daa722eeb9b4d73bf90f2c"
 
