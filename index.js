@@ -12,9 +12,6 @@ app.use(UserRoute);
 app.use(partnersRouter);
 app.use(doctorRouter);
 app.use(appointmentsRouter);
-app.use("/", (req, res) => {
-  res.send("Welcome to the server backend");
-});
 
 const port = 3001;
 
